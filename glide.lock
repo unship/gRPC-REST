@@ -1,0 +1,62 @@
+hash: a10de0ac9b30eff1794cc40578abc1a24d78cd5fde97a0be2c44f44c3b5063cc
+updated: 2017-07-04T18:56:24.179637256+08:00
+imports:
+- name: github.com/biolee/swagger-ui-go-embed
+  version: 9391de6b8b38d1fe21f55151065d109a708376db
+  subpackages:
+  - ui
+- name: github.com/golang/protobuf
+  version: 6a1fa9404c0aebf36c879bc50152edcc953910d2
+  subpackages:
+  - jsonpb
+  - proto
+  - protoc-gen-go/descriptor
+  - ptypes/any
+  - ptypes/struct
+- name: github.com/grpc-ecosystem/grpc-gateway
+  version: 589b126116b5fc961939b3e156c29e4d9d58222f
+  subpackages:
+  - runtime
+  - runtime/internal
+  - utilities
+- name: github.com/philips/go-bindata-assetfs
+  version: 3dcc96556217539f50599357fb481ac0dc7439b9
+- name: golang.org/x/net
+  version: 1f9224279e98554b6a6432d4dd998a739f8b2b7c
+  subpackages:
+  - context
+  - http2
+  - http2/hpack
+  - idna
+  - internal/timeseries
+  - lex/httplex
+  - trace
+- name: golang.org/x/text
+  version: 2bf8f2a19ec09c670e931282edfe6567f6be21c9
+  subpackages:
+  - secure/bidirule
+  - transform
+  - unicode/bidi
+  - unicode/norm
+- name: google.golang.org/genproto
+  version: aa2eb687b4d3e17154372564ad8d6bf11c3cf21f
+  subpackages:
+  - googleapis/api/annotations
+  - googleapis/rpc/status
+- name: google.golang.org/grpc
+  version: b15215fb911b24a5d61d57feec4233d610530464
+  subpackages:
+  - codes
+  - credentials
+  - grpclb/grpc_lb_v1
+  - grpclog
+  - internal
+  - keepalive
+  - metadata
+  - naming
+  - peer
+  - stats
+  - status
+  - tap
+  - transport
+testImports: []

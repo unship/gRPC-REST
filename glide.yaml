@@ -1,0 +1,4 @@
+package: github.com/biolee/gRPC-REST
+import:
+- package: github.com/biolee/swagger-ui-go-embed
+- package: github.com/grpc-ecosystem/grpc-gateway
