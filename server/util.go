@@ -10,7 +10,7 @@ import (
 )
 
 const (
-	ip   = "localhost"
+	ip   = "0.0.0.0"
 	port = 10000
 )
 
@@ -31,5 +31,4 @@ func init() {
 	if !ok {
 		panic("bad certs")
 	}
-
 }

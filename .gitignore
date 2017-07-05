@@ -15,3 +15,8 @@
 # Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
 .glide/
 
+/cert/embedded.go
+/cert/server.key
+/cert/server.pem
+
+*.server
